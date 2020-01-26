@@ -45,26 +45,27 @@
 <!--dit zout einde header moeten zijn -->
 
 <!-- Dit zou de slideshow moeten zijn --> 
-    <script language="JavaScript"> 
-        var i = 0; var path = new Array(); 
+<center>    <script language="JavaScript"> 
+var i = 0; var path = new Array(); 
 
-        path[0] = "F0.png"; 
-        path[1] = "F1.png"; 
-        path[2] = "F2.png"; 
-        path[3] = "F3.png"; 
-        path[4] = "F4.png"; 
-        path[5] = "F5.png";
-        path[6] = "F6.png";
+path[0] = "F0.png";  
+path[1] = "F1.png"; 
+path[2] = "F2.png"; 
+path[3] = "F3.png"; 
+path[4] = "F4.png"; 
+path[5] = "F5.png";
+path[6] = "F6.png"; 
 
-        function swapImage() 
-        { document.slide.src = path[i]; 
-        if(i < path.length - 1) i++; 
-         else i = 0; 
-         setTimeout("swapImage()",2000); 
-        } 
-        window.onload=swapImage; 
-    </script> 
-    <img height="598" name="slide" src="image_1.gif" width="412" />
+function swapImage() 
+{ 
+document.slide.src = path[i]; 
+if(i < path.length - 1) i++; 
+else i = 0; 
+setTimeout("swapImage()",2000); 
+} 
+window.onload=swapImage; 
+</script> 
+    <img height="578" name="slide" src="image_1.gif" width="398" /></center>
 <!-- Dit zou einde van de slideshow moeten zijn -->
 
 
